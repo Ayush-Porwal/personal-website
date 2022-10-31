@@ -1,3 +1,9 @@
+/* font icons css */
+
+@import './icons.css';
+@import './fonts.css';
+
+/* tailwind settings */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
