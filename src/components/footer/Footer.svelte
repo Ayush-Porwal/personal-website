@@ -3,9 +3,27 @@
 </script>
 
 <div>
-	<div class="social-icon github icon-github" />
-	<div class="social-icon linkedin icon-linkedin" />
-	<div class="social-icon instagram icon-instagram" />
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	<div
+		class="social-icon github icon-github"
+		on:click={() => {
+			window.open('https://github.com/porwal-ayush', '_blank');
+		}}
+	/>
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	<div
+		class="social-icon linkedin icon-linkedin"
+		on:click={() => {
+			window.open('https://www.linkedin.com/in/ayush-porwal/', '_blank');
+		}}
+	/>
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
+	<div
+		class="social-icon instagram icon-instagram"
+		on:click={() => {
+			window.open('https://www.instagram.com/prom_cooks/', '_blank');
+		}}
+	/>
 	<div class="right-line" />
 </div>
 

@@ -1,8 +1,9 @@
 <script>
 	export let buttonTitle = '';
+	export let handleOnClick = () => {};
 </script>
 
-<button class="button">{buttonTitle}</button>
+<button class="button" on:click={handleOnClick}>{buttonTitle}</button>
 
 <style lang="scss">
 	.button {
