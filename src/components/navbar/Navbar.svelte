@@ -1,14 +1,25 @@
 <script>
+	import { page } from '$app/stores';
+	import { goto } from '$app/navigation';
 	const navItems = ['Home', 'Skills', 'Blogs', 'Contact', 'Resume'];
 </script>
 
 <nav class="navbar grid gap-64 grid-cols-2">
-	<div class="icon icon-home flex items-center text-5xl" />
+	<div
+		class="icon icon-home flex items-center text-5xl"
+		on:click={() => {
+			goto('/');
+		}}
+	/>
 	<div class="grid grid-cols-5">
 		{#each navItems as item}
 			<a
 				href={`/${item === 'Home' ? '' : item.toLowerCase()}`}
-				class="items flex items-center justify-center"
+				class={`${
+					$page.url.pathname.slice(1) === (item === 'Home' ? '' : item.toLowerCase())
+						? 'active-tab'
+						: ''
+				} items flex items-center justify-center`}
 			>
 				{item}
 			</a>
@@ -41,7 +52,7 @@
 			color: #64ffda;
 		}
 	}
-	// .activeTab {
-	// 	color: #64ffda;
-	// }
+	.active-tab {
+		color: #64ffda;
+	}
 </style>
