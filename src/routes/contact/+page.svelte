@@ -2,7 +2,7 @@
 	import Button from '../../components/button/Button.svelte';
 </script>
 
-<main class="container mt-[15%] ml-[15%]">
+<main class="defaultFont flex flex-col ml-[8%] mt-[8%] xl:ml-[16%] xl:mt-[12%]">
 	<div class="text-7xl my-2 text-[#64ffda]">Give me an opportunity</div>
 	<div class="text-2xl text-white max-w-[70%] my-4 lg:my-10">
 		I’m interested to work in ambitious and large projects. However, if you have other request or
@@ -35,7 +35,7 @@
 </main>
 
 <style>
-	.container {
+	.defaultFont {
 		font-family: roboto-regular;
 	}
 </style>
