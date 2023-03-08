@@ -1,40 +1,42 @@
 @font-face {
 	font-family: 'icomoon';
-	src: url('/icons/icomoon.eot?wdebxo');
-	src: url('/icons/icomoon.eot?wdebxo#iefix') format('embedded-opentype'),
-		url('/icons/icomoon.ttf?wdebxo') format('truetype'),
-		url('/icons/icomoon.woff?wdebxo') format('woff'),
-		url('/icons/icomoon.svg?wdebxo#icomoon') format('svg');
+	src:  url('/icons/icomoon.eot?fm8c7d');
+	src:  url('/icons/icomoon.eot?fm8c7d#iefix') format('embedded-opentype'),
+	  url('/icons/icomoon.ttf?fm8c7d') format('truetype'),
+	  url('/icons/icomoon.woff?fm8c7d') format('woff'),
+	  url('/icons/icomoon.svg?fm8c7d#icomoon') format('svg');
 	font-weight: normal;
 	font-style: normal;
 	font-display: block;
-}
-
-[class^='icon-'],
-[class*=' icon-'] {
-	/* use !important to prevent issues with browser extensions that change icons */
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+	/* use !important to prevent issues with browser extensions that change fonts */
 	font-family: 'icomoon' !important;
-	speak: never;
 	font-style: normal;
 	font-weight: normal;
 	font-variant: normal;
 	text-transform: none;
 	line-height: 1;
-
+  
 	/* Better Font Rendering =========== */
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
-}
-
-.icon-github:before {
-	content: '\e900';
-}
-.icon-home:before {
-	content: '\e901';
-}
-.icon-instagram:before {
-	content: '\e902';
-}
-.icon-linkedin:before {
-	content: '\e903';
-}
+  }
+  
+  .icon-github:before {
+	content: "\e900";
+  }
+  .icon-home:before {
+	content: "\e901";
+  }
+  .icon-instagram:before {
+	content: "\e902";
+  }
+  .icon-linkedin:before {
+	content: "\e903";
+  }
+  .icon-menu:before {
+	content: "\e9bd";
+  }
+  
