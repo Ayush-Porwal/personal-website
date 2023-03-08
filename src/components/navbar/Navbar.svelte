@@ -4,14 +4,15 @@
 	const navItems = ['Home', 'Skills', 'Blogs', 'Contact', 'Resume'];
 </script>
 
-<nav class="navbar grid gap-64 grid-cols-2">
+<nav class="w-screen h-[60px] text-white cursor-pointer bg-[#222639] shadow-xl flex justify-between">
+	<!-- svelte-ignore a11y-click-events-have-key-events -->
 	<div
-		class="icon icon-home flex items-center text-5xl"
+		class="ml-[24px] hover:text-[#64ffda] icon-home flex items-center text-5xl"
 		on:click={() => {
 			goto('/');
 		}}
 	/>
-	<div class="grid grid-cols-5">
+	<div class="flex mr-[24px] gap-4 md:gap-8 lg:gap-8">
 		{#each navItems as item}
 			<a
 				href={`/${item === 'Home' ? '' : item.toLowerCase()}`}
@@ -28,22 +29,6 @@
 </nav>
 
 <style lang="scss">
-	.navbar {
-		width: 100vw;
-		height: 60px;
-		color: #fff;
-		cursor: pointer;
-		background-color: #222639;
-		box-shadow: 0px 3px 4px rgba(0, 0, 0, 0.25);
-	}
-
-	.icon {
-		margin-left: 24px;
-		&:hover {
-			color: #64ffda;
-		}
-	}
-
 	.items {
 		font-size: 24px;
 		font-family: roboto-bold;
