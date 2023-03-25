@@ -4,7 +4,7 @@
 		by email.
 	</div>
 
-	<div class="my-4 flex justify-center">Till them maybe enjoy a view travel videos of mine?</div>
+	<div class="my-4 flex justify-center">Until then enjoy a few travel videos of mine!</div>
 
 	<div class="my-4 flex justify-center">
 		<iframe
