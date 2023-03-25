@@ -2,23 +2,23 @@
 	import Button from '../../components/button/Button.svelte';
 </script>
 
-<main class="defaultFont flex flex-col ml-[8%] mt-[8%] xl:ml-[16%] xl:mt-[12%]">
-	<div class="text-7xl my-2 text-[#64ffda]">Give me an opportunity</div>
-	<div class="text-2xl text-white max-w-[70%] my-4 lg:my-10">
+<main class="flex flex-col justify-center h-[calc(100vh_-_124px)] w-3/4 mx-auto">
+	<div class="my-2 text-[#64ffda] text-5xl md:text-7xl">Give me an opportunity</div>
+	<span class="text-xl md:text-2xl text-white my-4 lg:my-10">
 		I’m interested to work in ambitious and large projects. However, if you have other request or
 		question, please don’t hesitate to contact.
-	</div>
-	<form class="flex flex-wrap gap-2 max-w-[70%]">
-		<fieldset class="flex w-full gap-2">
+	</span>
+	<form class="flex flex-col gap-2">
+		<fieldset class="flex flex-col md:flex-row w-full gap-2">
 			<input
 				type="text"
 				placeholder="Name"
-				class="p-4 bg-[rgba(100,255,218,0.1)] w-1/2 rounded text-white"
+				class="p-4 bg-[rgba(100,255,218,0.1)] w-full md:w-1/2 rounded text-white"
 			/>
 			<input
 				type="email"
 				placeholder="Email"
-				class="p-4 bg-[rgba(100,255,218,0.1)] w-1/2 rounded text-white"
+				class="p-4 bg-[rgba(100,255,218,0.1)] w-full md:w-1/2 rounded text-white"
 			/>
 		</fieldset>
 		<input
@@ -33,9 +33,3 @@
 		<div class="flex justify-end w-full"><Button buttonTitle="Send Message!" /></div>
 	</form>
 </main>
-
-<style>
-	.defaultFont {
-		font-family: roboto-regular;
-	}
-</style>

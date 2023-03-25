@@ -1,18 +1,12 @@
 <script>
 	export let buttonTitle = '';
+	export let fullWidth = false;
 	export let handleOnClick = () => {};
 </script>
 
-<button class="button" on:click={handleOnClick}>{buttonTitle}</button>
-
-<style lang="scss">
-	.button {
-		color: #fff;
-		width: 200px;
-		font-size: 24px;
-		margin: 1% 0 0 0;
-		padding: 6px 12px;
-		border: 1px solid #64ffda;
-		background-color: transparent;
-	}
-</style>
+<button
+	class={`text-white w-52 text-2xl px-[6px] py-[12px] m-[12px_0_0_0] border border-[#64ffda] bg-transparent ${
+		fullWidth ? 'w-full' : ''
+	}`}
+	on:click={handleOnClick}>{buttonTitle}</button
+>
