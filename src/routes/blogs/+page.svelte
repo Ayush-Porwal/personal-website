@@ -1,4 +1,4 @@
-<div class="h-[calc(100vh_-_124px)] text-white text-justify text-3xl p-4">
+<div class="min-h-[calc(100vh_-_124px)] text-white text-justify text-3xl p-4">
 	<div class="my-4 flex justify-center">
 		This page is under work. Any suggestion is welcomed, feel free to share your ideas and thoughts
 		by email.

@@ -30,8 +30,8 @@
 	];
 </script>
 
-<main class="overflow-auto h-[calc(100vh_-_124px)]">
-	<div class="h-[calc(100vh_-_124px)] flex flex-col justify-center mx-auto w-3/4">
+<main class="overflow-auto min-h-[calc(100vh_-_120px)]">
+	<div class="min-h-[calc(100vh_-_120px)] flex flex-col justify-center mx-auto w-3/4">
 		<h1 class="text-white text-2xl md:text-4xl my-2">Hi my name is</h1>
 		<h2 class="text-[#64ffda] text-2xl md:text-7xl my-2">Ayush Porwal</h2>
 		<h2 class="text-white text-2xl md:text-4xl my-2">

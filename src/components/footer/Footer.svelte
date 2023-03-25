@@ -2,7 +2,7 @@
 	export let email = 'xyz@abcmail.com';
 </script>
 
-<div class="w-full fixed bottom-0 py-4 bg-[#222639]">
+<div class="w-full py-4 bg-[#222639]">
 	<div class="flex justify-center gap-4 items-center">
 		<!-- svelte-ignore a11y-click-events-have-key-events -->
 		<div
