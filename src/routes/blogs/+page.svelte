@@ -1,7 +1,7 @@
 <div class="h-[calc(100vh_-_124px)] text-white text-justify text-3xl p-4">
 	<div class="my-4 flex justify-center">
-		This is under work, throw away some ideas on my email. Cause I have no idea about how to
-		architecture this lmao.
+		This page is under work. Any suggestion is welcomed, feel free to share your ideas and thoughts
+		by email.
 	</div>
 
 	<div class="my-4 flex justify-center">Till them maybe enjoy a view travel videos of mine?</div>
