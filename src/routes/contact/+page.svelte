@@ -27,8 +27,8 @@
 				duration: 5000,
 				theme: {
 					'--toastColor': '#fff',
-					'--toastBackground': 'rgba(100,255,218,0.1)',
-					'--toastBarBackground': 'rgba(100,255,218,0.1)'
+					'--toastBackground': '#273b48',
+					'--toastBarBackground': '#273b48'
 				}
 			});
 		}}
