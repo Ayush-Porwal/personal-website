@@ -28,7 +28,7 @@
 				theme: {
 					'--toastColor': '#fff',
 					'--toastBackground': '#273b48',
-					'--toastBarBackground': '#273b48'
+					'--toastBarBackground': '#64ffda'
 				}
 			});
 		}}
